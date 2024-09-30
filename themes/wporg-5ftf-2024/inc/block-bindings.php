@@ -51,10 +51,10 @@ function get_meta_binding_value( $args, $block ) {
 		case 'org-contribution-details':
 			$contribution_data = XProfile\get_aggregate_contributor_data_for_pledge( $block->context['postId'] );
 			return sprintf(
-				__( '%1$s sponsors %2$s for a total of <strong>%3$s hours</strong> per week across <strong>%4$d teams</strong>.', 'wporg-5ftf' ),
+				__( '%1$s sponsors %2$s for a total of <strong>%3$s&nbsp;hours</strong> per week across <strong>%4$d&nbsp;teams</strong>.', 'wporg-5ftf' ),
 				get_the_title( $block->context['postId'] ),
 				sprintf(
-					_n( '<strong>%d contributor</strong>', '<strong>%d contributors</strong>', $contribution_data['contributors'], 'wporg-5ftf' ),
+					_n( '<strong>%d&nbsp;contributor</strong>', '<strong>%d&nbsp;contributors</strong>', $contribution_data['contributors'], 'wporg-5ftf' ),
 					number_format_i18n( absint( $contribution_data['contributors'] ) )
 				),
 				number_format_i18n( absint( $contribution_data['hours'] ) ),
