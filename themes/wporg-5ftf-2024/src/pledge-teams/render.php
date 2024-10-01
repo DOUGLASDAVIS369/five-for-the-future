@@ -22,4 +22,5 @@ $contribution_data = XProfile\get_aggregate_contributor_data_for_pledge( $block-
 			</li>
 		<?php endforeach; ?>
 	</ul>
+	<p class="has-small-font-size"><a href="https://make.wordpress.org/"><?php esc_html_e( 'Learn more about contributor teams', 'wporg-5ftf' ); ?></a></p>
 </div>
