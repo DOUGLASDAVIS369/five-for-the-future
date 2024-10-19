@@ -1,4 +1,4 @@
-# Five for the Future (WordPress.org/five-for-the-future)
+## Five for the Future (WordPress.org/five-for-the-future)
 
 [Five for the Future](https://wordpress.org/five-for-the-future) is an initiative promoting the WordPress community’s contribution to the platform’s growth. As an open source project, WordPress is created by a diverse collection of people from around the world.
 
